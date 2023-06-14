@@ -17,16 +17,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
 <body>
-    
     <div class="container">
         <h2> Discount Calculator </h2>
         <p>Enter the Bill amount and discount in percentage</p>
         <form>
             <label id="labelBill"> Bill Amount  </label>
-            <input type="number"> <br>
+            <input type="number" id="bill"> <br>
             <label> Discount Percentage  </label>
-            <input type="number"> <br>
-            <button id="calculator"> Calculator </button>
+            <input type="number" id="discount"> <br>
+            <button id="calculator" type="button"> Calculator </button>
         </form>
         <p id="total"> Total Discount Amount == </p> <br>
 
@@ -36,5 +35,6 @@
         <i id="instagram" class="fa fa-instagram" aria-hidden="true"></i> 
     
     </div>
+    <script src="Script.js"></script>
 </body>
 </html>
